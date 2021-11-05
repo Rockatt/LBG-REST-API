@@ -122,7 +122,17 @@ If we test the builder and input a name of Lemon, a description of "A yellow cit
 
 An example of integration test we can create for this project is to test the RESTful end points.
 
-If we test the DELETE endpoint by sending a request with a menthod of 'DELETE' and a path of '/product/delete/1' wew should expect the response to be:
+If we test the DELETE endpoint by sending a request with a method of 'DELETE' and a path of '/product/delete/1' wew should expect the response to be:
 
 Status Code: 204
 Status Text: No Content
+
+
+### System testing
+
+Our first example of system testing is 'system integration testing' to perform this on our project we could test the CREATE method and then check that the output from the READ method is expected.
+
+If we created our "Lemon" above and received the 201 status text created we could then read all of the products and expect a status code of 200, status text of OK, and a message body containing the "Lemon" we created.
+
+Alternatively we could 'Black Box' system test by using the front end to create a new product and reading the page to make sure the new product has been created.
+
