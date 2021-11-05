@@ -118,4 +118,11 @@ If we test the builder and input a name of Lemon, a description of "A yellow cit
 
 ~~~
 
+### Integration
 
+An example of integration test we can create for this project is to test the RESTful end points.
+
+If we test the DELETE endpoint by sending a request with a menthod of 'DELETE' and a path of '/product/delete/1' wew should expect the response to be:
+
+Status Code: 204
+Status Text: No Content
