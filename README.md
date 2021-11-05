@@ -97,3 +97,25 @@ To run tests on this project, use the command.
 npm test
 ~~~
 
+## Example Tests
+
+### Unit
+
+
+
+An exmaple unit test we can create for this project is to test the product builder.
+
+If we test the builder and input a name of Lemon, a description of "A yellow citrus fruit" and a price of "0.4"...we can expect an object to created that matches this format.
+
+
+~~~ Javascript
+
+{
+    name : "Lemon",
+    description : "Ayellow citrus fruit",
+    price : 0.4
+}
+
+~~~
+
+
