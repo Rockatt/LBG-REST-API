@@ -112,7 +112,7 @@ If we test the builder and input a name of Lemon, a description of "A yellow cit
 
 {
     name : "Lemon",
-    description : "Ayellow citrus fruit",
+    description : "A yellow citrus fruit",
     price : 0.4
 }
 
