@@ -136,3 +136,19 @@ If we created our "Lemon" above and received the 201 status text created we coul
 
 Alternatively we could 'Black Box' system test by using the front end to create a new product and reading the page to make sure the new product has been created.
 
+### User Acceptance Testing
+
+An example of a user acceptance testr would be:
+
+*As a* user
+*When* I enter a product into the update field
+*and* enter new information
+*I want* to be able to see that the product has updated.
+
+GIVEN that the user can access the front-end of the API
+WHEN they enter a valid id into the update field
+AND they enter a name
+AND they enter a description
+AND they enter a price
+AND they click the PUT button
+THEN the updated product is visible on the page
