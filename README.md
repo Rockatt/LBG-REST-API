@@ -1,4 +1,4 @@
-# REST API starter - Mike "make it so"
+# REST API starter - Mike "make it so 1 final time"
 This application satisfies the requirements of Part I, 1. of the LBG project specification.
 
 ## Installation
