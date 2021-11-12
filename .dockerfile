@@ -4,3 +4,16 @@ kubernetes/*
 app.test.js
 
 LICENCE
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
+node_modules
