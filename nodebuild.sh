@@ -20,7 +20,7 @@ echo "node_modules" >> .dockerfile
 
 #docker build
 
-docker build -t api-image:{$BUILD_ID] .
+docker build -t api-image:{$BUILD_ID} .
 
 # if pwd=echo"${rundir}" 
 
