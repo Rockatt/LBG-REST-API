@@ -36,7 +36,7 @@ docker build -t api-image .
 
 docker tag api-image gcr.io/lbg-training/mikes-api
 
-docker push gcr.io/lbg-training/mikes-api}
+docker push gcr.io/lbg-training/mikes-api
 
 
 
