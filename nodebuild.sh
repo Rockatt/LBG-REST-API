@@ -32,9 +32,7 @@ docker build -t api-image .
 
 #-------------------------------------------------------------------------
 
-gcloud auth configure-docker
 
-gcloud config set account mike-jenkins-service-acc@lbg-training.iam.gserviceaccount.com 
 
 docker tag api-image gcr.io/lbg-training/mikes-api
 
