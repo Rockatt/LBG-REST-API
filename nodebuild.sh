@@ -20,7 +20,7 @@ echo "node_modules" >> .dockerfile
 
 #docker build
 
-docker build -t api-image .
+docker build -t api-image-new .
 
 # if pwd=echo"${rundir}" 
 
@@ -34,10 +34,10 @@ docker build -t api-image .
 
 
 
-docker tag api-image gcr.io/lbg-training/mikes-api:${BUILD_ID}
+docker tag api-image-new gcr.io/lbg-training/mikes-api:${BUILD_ID}
 
 
-docker push gcr.io/lbg-training/mikes-api
+docker push gcr.io/lbg-training/mikes-api:${BUILD_ID}
 
 
 
