@@ -20,7 +20,7 @@ echo "node_modules" >> .dockerfile
 
 #docker build
 
-docker build -t api-image .
+docker build -t api-image:{BUILD_ID] .
 
 # if pwd=echo"${rundir}" 
 
@@ -29,6 +29,16 @@ docker build -t api-image .
 # else
 
 # cd echo"${rundir}" echo "${build}"
+
+#-------------------------------------------------------------------------
+
+gcloud config set account
+
+docker tag api-image gcr.io/lbg-training/mikes-api:{BUILD_ID]
+
+docker push gcr.io/lbg-training/mikes-api:{BUILD_ID
+
+
 
 exit
 

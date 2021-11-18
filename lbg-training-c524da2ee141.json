@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lbg-training",
+  "private_key_id": "c524da2ee141043ef777b9e426bff0838b783684",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDyV7v8vWVS4EwO\n3cqCa2rpfbrdZWCfSfQNlu3fjE51Bo4E/SlkUz9Vv+O8XXwpc3ydvy4wvLwNWBya\nJJ9Ma1F5EUFPhj1iUijhiPIO2PAU85rgCcEcl6v2f1Dfdhn42i+WdpqMaUlTxADu\nee43+qb3w7g8wtBs+hiRQFx2G6WfLWVFkeavXdcWdDM4pB2NqxfPrlWFSeLxXkQg\nEJRWeqLaTAkRFVNvU4ymJXmSubjUqHNdr++7a6x25LMTXSPN82B5ONwYXnrPs66g\npXjfMY4kW4+4JKEL0/C6lrrhkcNJSKDrWzCpPBwKHCe3apQ0+SpvmShFY7sFgx9p\nD6s1rLxzAgMBAAECggEAWv3kIKaAR9jd1esi4Usxzk+d/QjWeZiL4RpdYEVPJBN8\n+ZSQmRHEww6UlKJJP0sUbCpfTn9e4GfH/Xxor4nQAnQfIJvXqnYM0XnY4QhFRKie\n6yXeczzjnV76X5z5bX2GxqjrqHLTzHbYnrH7ZttfG8JKB85h8bkJxmfzD4mb6yKm\nSFXQmcrh+rr9UH7Mh44WM8igw9xBw46QxqXIhOfGm9u1fUCP+mO4BsLNkqVI38BM\nsaK2nms6plTVDlgHHJfIrbpuIXNnSk5Ry17fRecQdt1wKvA6nSA5ZmZD194D812X\nheOoYZowbDwNW6BJWucsN7XrPMS9txzNiWpTEQ/4iQKBgQD77xankZG7TIe9MRBU\nneFr4wFOFhPuj2Ep4uPZxwJoytGL7G3HRZ/Z4nN9SC8et4v2JvNKQ1M3MUgAyVLI\nhMHcTaNok1gp4tPORG5Ob+PD0AVWjau3PnloSV4Vt5m5QttpcsAn+Naou0MGUrD/\nMlXu+BX40hq6tSaLwLeomLiOVQKBgQD2QQSVmupqnCtRnLX90xlK3F1qWKKE/nRd\ngY0oT4bBVMXuhXrPVCQirkawtxVD84F2FotKD+0rEWmZwX45/PUUS612zvJaunvb\nDsERhUh1vSyhLTb4SmVA6VLBayiyzD6O1cchuki8g2mOglj27S4WTn1myj+ktlTv\nD5RggEVXpwKBgG/tHKd9qL0JlxSag6LUMZ340E+cx2YpFQXC42+RVqSv1sDPXUY2\nzHnEfYKfWy/OY8QMMfJATuwqXM7cooarVGVHqN2A+J5DQ85T4J3AX/RSqsx1TGCw\nxMdsMPx9ATKpXUlPzcb0aom0CGb6vd/iwQLV/Qz6ax2f9WwJRo8EqpmxAoGBANq8\n6juRvgQw8HGwCCCNMPxEPl5GmSYVeHvOpfpWmdaFXMQAoRQlI2wC7hvupN8VH7wr\nTlLdTshg0TKYo20S+weqKU1Nig15dKcitfDAOZsMDOamaRunycUc/Dt+2knoDvGF\nhzq4Y/+/ozXJJwk/qR57Xfy+TkYbB9rKNfx6NB4lAoGBAJbORcAZi2ixDdtvurnM\nC3E1TAwUvX/Otesm89PAeskhT+Hj8mDr9+qRLcUUT90ewNqSZUPYk+UtCNf1EW5l\nWmHA4Z4/9733F6Qsf3j+UaT8uxJzhAOBgPnuHR4f3MXEGwROvae4HF+khNJqegex\nhtsrWYHyfrVAdtchTOmxcGNy\n-----END PRIVATE KEY-----\n",
+  "client_email": "mike-jenkins-service-acc@lbg-training.iam.gserviceaccount.com",
+  "client_id": "100971835741566031218",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mike-jenkins-service-acc%40lbg-training.iam.gserviceaccount.com"
+}
