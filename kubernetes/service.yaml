@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: mikes-app-lb  
+spec:
+  type: LoadBalancer
+  selector:
+    app: mikes-app
+  ports:
+  - protocol: TCP
+    port: 80        # Defines the Service's port within the cluster
+    targetPort: 9000
+

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mikes-app
+  labels:
+    app: mikes-app
+spec:
+  selector:
+    matchLabels:       # This is the label is being selected by the Deployment,
+      app: mikes-app      # meaning any Pod with this label is part of this Deployment spec
+  replicas: 2
+  template:            
+    metadata:
+      labels:
+        app: mikes-app     # This label must match what is specified in the selector
+    spec:
+      containers:
+      - name: mikes-app-cont
+        image: gcr.io/lbg-training/mikes-api:22
+
